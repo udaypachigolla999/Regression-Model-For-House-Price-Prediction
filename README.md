@@ -1,9 +1,9 @@
-# Regression-Model-For-House-Price-Prediction
+# Regression Model For House Price Prediction
 
 ## Project Overview
-This project applies **Multiple Linear Regression (MLR)** to analyze the housing dataset (`housing.csv`) and predict house prices based on various features. Additionally, **Recursive Feature Elimination (RFE)** was used in `mlr_housing_data_rfe` to refine feature selection and improve model performance.
+This project applies **Multiple Linear Regression (MLR)** to analyze the housing dataset (`housing.csv`) and predict house prices based on various features. Additionally, **Recursive Feature Elimination (RFE)** was used in `MLR Housing Data RFE` to refine feature selection and improve model performance.
 
-## Dataset: `housing.csv`
+## Dataset: `Housing.csv`
 ### Features:
 - `area` - Size of the house (in square feet)
 - `bedrooms` - Number of bedrooms
@@ -25,7 +25,7 @@ This project applies **Multiple Linear Regression (MLR)** to analyze the housing
    - Normalized numerical features for better model performance.
 
 2. **Feature Selection:**
-   - Used **Recursive Feature Elimination (RFE)** in `mlr_housing_data_rfe` to rank features based on importance.
+   - Used **Recursive Feature Elimination (RFE)** in `MLR Housing Data RFE` to rank features based on importance.
    - Identified and removed highly correlated and insignificant variables using **Variance Inflation Factor (VIF) and p-values**.
 
 3. **Model Building:**
@@ -45,8 +45,8 @@ This project applies **Multiple Linear Regression (MLR)** to analyze the housing
 
 ## Usage
 To reproduce the results, follow these steps:
-1. Load the dataset (`housing.csv`).
-2. Run feature selection using **RFE** (optional, using `mlr_housing_data_rfe`).
+1. Load the dataset (`Housing.csv`).
+2. Run feature selection using **RFE** (optional, using `MLR Housing Data RFE`).
 3. Train the **Multiple Linear Regression model**.
 4. Evaluate the model using residual analysis and R² score.
 5. Use the trained model to predict house prices.
