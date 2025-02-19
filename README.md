@@ -1,7 +1,7 @@
 # Regression Model For House Price Prediction
 
 ## Project Overview
-This project applies **Multiple Linear Regression (MLR)** to analyze the housing dataset (`housing.csv`) and predict house prices based on various features. Additionally, **Recursive Feature Elimination (RFE)** was used in `MLR Housing Data RFE` to refine feature selection and improve model performance.
+This project applies **Multiple Linear Regression (MLR)** to analyze the housing dataset (`Housing.csv`) and predict house prices based on various features. Additionally, **Recursive Feature Elimination (RFE)** was used in `MLR Housing Data RFE` to refine feature selection and improve model performance.
 
 ## Dataset: `Housing.csv`
 ### Features:
